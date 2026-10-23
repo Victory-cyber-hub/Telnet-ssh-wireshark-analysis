@@ -1,0 +1,13 @@
+# Commands used in the lab
+# Record only commands actually executed; remove or edit examples that you did not use.
+
+wireshark &
+telnet localhost
+whoami
+exit
+ssh localhost
+whoami
+
+# Wireshark display filters (enter in the Wireshark filter bar, not the shell)
+telnet
+ssh

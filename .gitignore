@@ -1,0 +1,31 @@
+# Raw packet captures: review and sanitize before sharing
+*.pcap
+*.pcapng
+
+# Credentials, keys, and local secrets
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+id_ed25519
+*.kdb
+*.p12
+*.pfx
+secrets/
+credentials.txt
+
+# Local/editor/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python / temporary files
+__pycache__/
+*.py[cod]
+.tmp/
+temp/
